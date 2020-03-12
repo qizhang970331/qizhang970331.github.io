@@ -4,11 +4,6 @@ title: Qi Zhang's Blog
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-
-	<p> This is a timeline about Coca-Cola.</p>
-	<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1m9iaMPf0POw0wYv27k4ffI6wOdvJy8bc-pI3K2fUJ4A&font=Fjalla-Average&lang=en&timenav_position=top&hash_bookmark=true&initial_zoom=2&height=650#event-the-empire-of-drink>
-	</iframe>
-		
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
