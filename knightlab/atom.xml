@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Qi Zhang's Blog</title>
-	<link href="http://qizhang970331.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://qizhang970331.github.io/blog"/>
+	<link href="http://qizhang970331.github.io/knightlab/atom.xml" rel="self"/>
+	<link href="http://qizhang970331.github.io/knightlab"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://qizhang970331.github.io/blog</id>
+	<id>http://qizhang970331.github.io/knightlab</id>
 	<author>
 		<name>Qi Zhang</name>
 		<email>qizhang3@clarku.edu</email>
